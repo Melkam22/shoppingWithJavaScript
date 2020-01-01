@@ -1,1 +1,3 @@
 # shoppingWithJavaScript
+
+Simple but fully functional Shopping cart made with vanilla javascript. One can choose the product he/she likes, add it to the basket simply by clicking addToBasket button. The prices of the selected items are automatically calculated and incase of change of plan, he/she can unselect the undesired products just by clicking on the delete button. In this case too, the price is automatically calculated. One can increase the quantity of the product he/she wants to buy but the quantity can not go below 1. At the same time, the user will be alerted incase he/she selectes similar product by mistake. Currently, I am working on making it more performing and adding additional features such as payment options etc.
