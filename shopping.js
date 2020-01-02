@@ -100,4 +100,8 @@ function addItemToBasket(pushTitle, pushPrice, pushImage) {
       let deleteContent = event.target;
       deleteContent.parentElement.parentElement.remove();
     });
+  /*update total on quantity change on newly added items*/
+  createdRow
+    .getElementsByClassName("products-inside-quantity")[0]
+    .addEventListener("click", quantChanged);
 }
