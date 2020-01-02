@@ -107,3 +107,9 @@ h2 {
   height: 34px;
   margin-left: 2%;
 }
+/* remove button of basket */
+.btn-danger {
+  border: none;
+  color: silver;
+  background: rgba(241, 33, 22, 0.8);
+}
