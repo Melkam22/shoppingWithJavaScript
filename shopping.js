@@ -106,3 +106,18 @@ function addItemToBasket(pushTitle, pushPrice, pushImage) {
     .getElementsByClassName("products-inside-quantity")[0]
     .addEventListener("click", quantChanged);
 }
+/*purchase function and emptying the basket*/
+document
+  .getElementsByClassName("purchase-btn")[0]
+  .addEventListener("click", buyAndClearContent);
+
+function buyAndClearContent() {
+  alert(
+    "It was pleasure doing business with you! looking forward seeing you next time!"
+  );
+  let basketFrame = document.getElementsByClassName("inside-cart-products")[0];
+  while (basketFrame.hasChildNodes()) {
+    basketFrame.removeChild(basketFrame.firstChild);
+  }
+  updateCartTotal(); //total price update function
+}

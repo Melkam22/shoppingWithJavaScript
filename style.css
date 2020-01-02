@@ -83,6 +83,8 @@ h2 {
   height: 50px;
   background: green;
   color: silver;
+  font-weight: bold;
+  size: 24px;
   margin-left: 40%;
   border: none;
 }
