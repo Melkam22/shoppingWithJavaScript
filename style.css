@@ -1,5 +1,13 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(images/blueSpace.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: 0.9;
+}
 h2 {
-  color: blue;
+  color: rgba(40, 63, 6);
   text-align: center;
 }
 /* main container */
@@ -75,6 +83,8 @@ h2 {
 .cart-total {
   width: 190px;
   border-top: 2px solid silver;
+  margin-top: 2%;
+  padding-top: 2%;
 }
 
 /* purchase btn */
@@ -85,12 +95,15 @@ h2 {
   color: silver;
   font-weight: bold;
   size: 24px;
-  margin-left: 40%;
+  margin-left: 44%;
   border: none;
+  margin-bottom: 2%;
 }
 /* delete btn from upper-shopping card */
-.delBtn {
+.del-btn {
   background: rgba(53, 63, 173, 0.5);
   color: white;
   border: none;
+  height: 34px;
+  margin-left: 2%;
 }
